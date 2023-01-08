@@ -4,6 +4,7 @@ import lombok.extern.log4j.Log4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.kirill98.service.UpdateProducer;
 
